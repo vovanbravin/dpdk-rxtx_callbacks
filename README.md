@@ -1,16 +1,16 @@
 # dpdk-rxtx_callbacks
 
 ### Зависимости внутри контейнера:
-*build-essential # Компиляторы GCC, make
-*meson # Система сборки
-*ninja-build # Ускоритель сборки
-*python3 # Для скриптов DPDK
-*python3-pyelftools # Обработка ELF файлов
-*libnuma-dev # Поддержка NUMA
-*pkg-config # Конфигурация пакетов
-*iproute2 # Управление сетью
-*iputils-arping # Генерация трафика
-*wget # Загрузка DPDK
+build-essential # Компиляторы GCC, make  
+meson # Система сборки  
+ninja-build # Ускоритель сборки  
+python3 # Для скриптов DPDK  
+python3-pyelftools # Обработка ELF файлов  
+libnuma-dev # Поддержка NUMA  
+pkg-config # Конфигурация пакетов  
+iproute2 # Управление сетью  
+iputils-arping # Генерация трафика  
+wget # Загрузка DPDK  
 
 ## Сборка проекта
 
